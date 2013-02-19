@@ -1,7 +1,9 @@
-Nimbal = require('nez').link
+#!/usr/bin/env coffee
+
+Nimbal = require('nez').link 'Nimbal',
 
     #
-    # Link this branch to its parent node on the Master Plan
+    # UpLink this node (milestone) to its parent on the Master Plan
     # 
 
     uri: 'https://localhost:10101/sky/seshat/cloud/distributed/public'
@@ -15,14 +17,17 @@ Nimbal
     #
     
     class: 'Web Application'
-    
+
+    category: 'Project Realization'
+
     description: """
 
         An zero maintenance web application that persons/teams can install
         on their workstation or private network host that provides a fluid 
         and uncomplicated interface into a space within which to envision, 
-        architect, elaborate upon, assemble, prioritise and sequence the 
-        component tasks necessary to bring their software** idea(s) to life.
+        architect, elaborate upon, assemble, prioritise, sequence and assign
+        the component tasks necessary to bring their software** idea(s) to 
+        life.
 
         ** Although several of the primary features exclusively relate 
            to the processes involved in designing, implementating and 
@@ -33,9 +38,28 @@ Nimbal
 
     """, (feature) -> 
 
+        #
+        # DownLink to the unit/integration tests 
+        # that define the subcomponent necessities,
+        # 
+        # and encapsulate the validation mechanism 
+        # with which to evaluate the extent of this
+        # milestone's realization.
+        #
+
+
         feature.link 'spec/login'
         feature.link 'spec/config'
+        feature.link 'spec/sync'
         feature.link 'spec/dash'
         feature.link 'spec/quickjot'
         feature.link 'spec/elaborator'
+        feature.link 'spec/visualizer'
 
+
+
+        #
+        # initialize (nez) objective realization
+        #
+
+        Nimbal.realize()
