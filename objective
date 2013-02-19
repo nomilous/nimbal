@@ -48,15 +48,8 @@ Nimbal
         #
 
 
-        feature.link 'spec/login'
-        feature.link 'spec/config'
-        feature.link 'spec/sync'
-        feature.link 'spec/dash'
-        feature.link 'spec/quickjot'
-        feature.link 'spec/elaborator'
-        feature.link 'spec/visualizer'
-
-
+        feature.link 'realization/features'
+        feature.link 'realization/infrastructure'
 
         #
         # initialize (nez) objective realization
