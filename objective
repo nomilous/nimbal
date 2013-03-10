@@ -36,23 +36,9 @@ Nimbal
 
 
 
-    """, (feature) -> 
+    """, (requirements) -> 
 
-        #
-        # DownLink to the unit/integration tests 
-        # that define the subcomponent necessities,
-        # 
-        # and encapsulate the validation mechanism 
-        # with which to evaluate the extent of this
-        # milestone's realization.
-        #
+        
+        requirements.link 'requirements/stories'
 
 
-        feature.link 'realization/features'
-        feature.link 'realization/infrastructure'
-
-        #
-        # initialize (nez) objective realization
-        #
-
-        Nimbal.realize()

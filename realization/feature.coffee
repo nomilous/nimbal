@@ -1,16 +1,34 @@
+# refactor for requirements plugin
 
-As = require('nez').realization
+feature = require('nez').objective 'feature'
 
-As 'A creative individual', (To) ->
+feature as: 'A creative individual', (to) ->
 
-    To 'propery organize my ideas into coherent systems', (I) ->
+
+    to 'propery organize my ideas into coherent systems', (i) ->
  
-        I need: 'a quick and easy way to jot them down', (feature) ->
+        
+        i need: 'quick and easy ways capture them', (feature) ->
 
             feature.link 'realization/quickjot'
 
 
-#feature.link 'realization/dash'
-#feature.link 'realization/elaborator'
-#feature.link 'realization/visualizer'
+        i need: 'to elaborate on them', (feature) -> 
+        
+            feature.link 'realization/elaborator'
+        
+
+        i need: 'a general overview of them', (feature) ->
+        
+            feature.link 'realization/dash'
+        
+
+        i need: 'to examine them in detail', (feature) ->
+        
+            feature.link 'realization/visualizer'
+
+
+
+tree = require('nez').stacks['feature'].tree
+console.log JSON.stringify tree, null, 1
 
