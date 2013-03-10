@@ -23,3 +23,12 @@ Stories
     to:    'ensure i implement precisely'
     title: 'clarification requests', (specs) -> 
 
+
+Stories
+
+    as:    'a developer'
+    need:  'the story capture form to interface directly to a git repo'
+    to:    'not have to write a pageload of these things'
+    title: 'requirements git interface', (specs) -> 
+
+        specs.link 'specs/node'
