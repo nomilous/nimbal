@@ -10,7 +10,7 @@
     }
   ],
   "dependencies": {
-    "plex": "0.0.6"
+    "plex": "0.0.7"
   },
   "devDependencies": {
     "nez": "0.0.7",
