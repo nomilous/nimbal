@@ -1,24 +1,12 @@
 #!/usr/bin/env coffee
 
-Nimbal = require('nez').link 'Nimbal',
+require('nez').objective 'Nimbal',
 
-    #
-    # UpLink this node (milestone) to its parent on the Master Plan
-    # 
-
-    uri: 'https://localhost:10101/sky/seshat/cloud/distributed/public'
-
-
-
-Nimbal
-
-    #
-    # local root node, metadata 
-    #
+    nimbal: 'https://localhost:10101/'
     
-    class: 'Web Application'
+    class: 'Home'
 
-    category: 'Project Realization'
+    category: 'Web Application'
 
     description: """
 
@@ -36,9 +24,7 @@ Nimbal
 
 
 
-    """, (requirements) -> 
+    """, (requirement) -> 
 
         
-        requirements.link 'requirements/stories'
-
-
+        
