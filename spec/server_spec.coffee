@@ -1,11 +1,17 @@
 require('nez').realize 'Server', (Server, test, it) -> 
 
-    it 'starts plex', (done, plex) ->
+    it 'starts express and plex', (done, plex, http) ->
+
+        http.createServer = ->
+
+            return listen: (port, host) ->
+
+                port.should.equal 10101
+                host.should.equal 'localhost'
 
         plex.start = (opts) -> 
 
             opts.listen.adaptor.should.equal 'socket.io'
-            opts.listen.port.should.equal 10101
             test done
 
         Server.start()
