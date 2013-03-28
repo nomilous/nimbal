@@ -2,6 +2,10 @@ express = require 'express'
 plex    = require 'plex'
 http    = require 'http'
 
+console.log 'TODO: https'
+console.log 'TODO: config, secret, host, port'
+
+secret  = 'SEEKRIT'
 host    = 'localhost'
 port    = 10101
 
@@ -15,7 +19,7 @@ module.exports =
 
         app    = express()
         server = http.createServer app
-        server.listen 10101, host, -> 
+        server.listen port, host, -> 
 
             console.log 'listening @ %s:%s',
 
@@ -27,7 +31,11 @@ module.exports =
         # same server
         #
 
+
+
         plex.start
+
+            secret: secret
             
             listen: 
 
