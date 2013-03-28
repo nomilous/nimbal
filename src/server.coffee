@@ -39,6 +39,37 @@ module.exports =
             
             listen: 
 
-                adaptor: 'socket.io'  
                 server: server
+                adaptor: 'socket.io'
+
+                
+            protocol: (When, Then) -> 
+
+                #
+                # TODO: in plex, this likely fires before the auth 
+                #       (i suspiciously recall)
+                # 
+                #       emit 'authenticated' event after secret 
+                #       validation
+                # 
+
+                # When 'authenticated', -> 
+                When 'event:connect', -> 
+
+                    #
+                    # got a new connection, send registration request
+                    #
+
+                    Then 'register:req'
+
+
+                When 'register:res', (payload) -> 
+
+                    #
+                    # received registration response
+                    #
+
+                    console.log '\n\n%s\n\n', JSON.stringify payload, null, 2
+
+
 
