@@ -16,7 +16,7 @@ Development Underway
 
 * A quick hac to verify plex has all the bits necessary for a browser bound proxy of metrics from running objectives.
 
-* Then back to work on [eo]() and [ipso]() to complete the objective/realization duality that brings nez to full functionality. 
+* Then back to work on [eo](https://github.com/nomilous/eo) and [ipso](https://github.com/nomilous/ipso) to complete the objective/realization duality that brings nez to full functionality. 
 
 
 
