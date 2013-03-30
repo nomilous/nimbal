@@ -58,8 +58,8 @@ git seed clone
 
 
 #
-# attach the objective
-#
+# pending seeding in nez/develop to attach an objective to nimbal
+# 
 
 ./objective
 
