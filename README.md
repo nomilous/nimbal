@@ -31,7 +31,7 @@ Uses [git-seed](https://github.com/nomilous/git-seed) to replicate the developme
 ```bash
 
 #
-# (once) to install globally as a git plugin
+# (once) to install git-seed globally as a git plugin
 #
 
 sudo npm install git-seed -g
