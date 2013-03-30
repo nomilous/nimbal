@@ -50,6 +50,19 @@ cd nimbal
 git seed clone
 
 
+#
+# start nimbal server
+#
+
+./bin/nimbal
+
+
+#
+# attach the objective
+#
+
+./objective
+
 
 
 ```
