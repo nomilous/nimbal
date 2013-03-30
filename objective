@@ -26,6 +26,5 @@ require('nez').objective 'Nimbal',
 
 
     """, (requirement) -> 
-
         
-        
+        requirement.link 'requirement/uplink'

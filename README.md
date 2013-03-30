@@ -48,6 +48,7 @@ cd nimbal
 #
 
 git seed clone
+git seed pull  # from time to time
 
 
 #
@@ -58,7 +59,7 @@ git seed clone
 
 
 #
-# pending seeding in nez/develop to attach an objective to nimbal
+# attach the objective to nimbal
 # 
 
 ./objective
