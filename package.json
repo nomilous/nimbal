@@ -14,7 +14,7 @@
     "express": "~3.1.0"
   },
   "devDependencies": {
-    "nez": "0.0.7",
+    "nez": "0.0.8",
     "should": "~1.2.2"
   }
 }
