@@ -1,0 +1,10 @@
+[
+  {
+    "root": true,
+    "path": ".",
+    "origin": "git@github.com:nomilous/nimbal.git",
+    "branch": "refs/heads/master",
+    "ref": "ROOT_REPO_REF",
+    "manager": "npm"
+  }
+]
