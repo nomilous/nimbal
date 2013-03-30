@@ -2,7 +2,8 @@
 
 require('nez').objective 'Nimbal',
 
-    nimbal: 'https://localhost:10101/'
+    nimbal: 'http://localhost:10101/'
+    secret: 'SEEKRIT'
     
     class: 'Home'
 
