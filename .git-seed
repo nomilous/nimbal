@@ -20,7 +20,7 @@
     "path": "./node_modules/nez/node_modules/eo",
     "origin": "git@github.com:nomilous/eo.git",
     "branch": "refs/heads/master",
-    "ref": "c14fdd9863fca8607211c46147c3d48b552b3267",
+    "ref": "6a324ac3c916eb89292ae6b4d59ff71db9334ae2",
     "manager": "npm"
   },
   {
