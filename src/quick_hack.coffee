@@ -1,3 +1,5 @@
+fs = require 'fs'
+
 module.exports = (req, res, next) -> 
 
     #
@@ -6,9 +8,8 @@ module.exports = (req, res, next) ->
     # a socket and receives event feed 
     #
 
-    res.send """
+    res.send fs.readFileSync(
 
-<h1>hello browser</h1>
+        __dirname + '/../view/index.html'
 
-    """
-    
+    ).toString()
