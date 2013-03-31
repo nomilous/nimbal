@@ -20,7 +20,7 @@
     "path": "./node_modules/nez/node_modules/eo",
     "origin": "git@github.com:nomilous/eo.git",
     "branch": "refs/heads/master",
-    "ref": "a4986d049f4e64c2f5c41a9203bbc03da3e1679f",
+    "ref": "fa745a3770b8762c2b97f5a1be902c63920865b1",
     "manager": "npm"
   },
   {
@@ -28,7 +28,7 @@
     "path": "./node_modules/nez/node_modules/ipso",
     "origin": "git@github.com:nomilous/ipso.git",
     "branch": "refs/heads/master",
-    "ref": "29d32bc715e7ec827f3e98af71ff49217f242691",
+    "ref": "36bb15a0780300ff8b4584ecb92f1871122539e4",
     "manager": "npm"
   },
   {
