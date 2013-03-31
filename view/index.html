@@ -10,7 +10,34 @@
 
   <script>
 
-  
+    var socket = io.connect();
+    socket.on( 'connect', function() {
+
+      console.log('connected');
+      socket.emit('event:connect', {
+
+        mode:     'leaf',
+        globalId: 'something or other',
+        secret:   'SEEKRIT'
+
+      });
+    });
+
+    socket.on( 'register:req', function() {
+
+      socket.emit('register:res', {
+
+        browser: 'here'
+
+      });
+
+    });
+
+    socket.on('disconnect', function(){
+
+      console.log('disconnect');
+
+    });
 
   </script>
 
