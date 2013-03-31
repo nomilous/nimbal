@@ -26,12 +26,14 @@ module.exports =
                 server.address().address, 
                 server.address().port
 
+        
+        app.get '/', require './quick_hack'
+
+
         #
         # piggyback a socket.io plex adaptor on the
         # same server
         #
-
-
 
         plex.start
 
@@ -42,7 +44,6 @@ module.exports =
                 server: server
                 adaptor: 'socket.io'
 
-                
             protocol: (When, Then) -> 
 
                 #
@@ -61,7 +62,6 @@ module.exports =
                     #
 
                     Then 'register:req'
-
 
                 When 'register:res', (payload) -> 
 
