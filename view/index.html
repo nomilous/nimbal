@@ -23,12 +23,33 @@
       });
     });
 
-    socket.on( 'register:req', function() {
+    socket.on( 'register?', function() {
 
-      socket.emit('register:res', {
+      socket.emit('register!', {
 
-        browser: 'here'
+        _node: {
 
+          Entity: {
+
+            owner: {
+              /* pending user module */ 
+            },
+
+            interfaces: [
+              {
+                class: 'symbal:Viewport',
+                version: 0
+              }
+            ],
+            
+            instance: {
+              class: 'nimbal:Viewport',
+              version: 0
+            }
+
+          }
+
+        }
       });
 
     });

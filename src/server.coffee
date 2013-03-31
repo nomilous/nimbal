@@ -26,7 +26,7 @@ module.exports =
                 server.address().address, 
                 server.address().port
 
-        
+
         app.get '/', require './quick_hack'
 
 
@@ -61,15 +61,15 @@ module.exports =
                     # got a new connection, send registration request
                     #
 
-                    Then 'register:req'
+                    Then 'register?'
 
-                When 'register:res', (payload) -> 
+                When 'register!', (payload) -> 
 
                     #
                     # received registration response
                     #
 
-                    console.log '\n\n%s\n\n', JSON.stringify payload, null, 2
+                    console.log '\nregister!\n%s\n\n', JSON.stringify payload, null, 2
 
 
 
