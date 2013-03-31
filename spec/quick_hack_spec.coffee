@@ -1,7 +1,7 @@
 require('nez').realize 'QuickHack', (QuickHack, test, context) -> 
 
-    context 'in CONTEXT', (does) ->
+    context 'in CONTEXT', (it) ->
 
-        does 'an EXPECTATION', (done) ->
+        it 'does an EXPECTATION', (done) ->
 
             test done
