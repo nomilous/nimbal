@@ -69,7 +69,7 @@ module.exports =
                     # received registration response
                     #
 
-                    console.log '\nregister!\n%s\n\n', JSON.stringify payload, null, 2
+                    console.log '\nRECEIVED register!\n%s\n\n', JSON.stringify payload, null, 2
 
 
 

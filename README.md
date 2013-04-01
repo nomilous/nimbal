@@ -60,9 +60,16 @@ git seed pull  # from time to time
 
 #
 # attach the objective to nimbal
+# @ another terminal
 # 
 
 ./objective
+
+
+#
+# the not yet implemented nimbal:Viewport
+# @ http://localhost:10101
+# 
 
 
 
