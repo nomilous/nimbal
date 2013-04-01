@@ -1,5 +1,5 @@
 module.exports = 
 
-    server:   require './server'
+    Server:   require './server'
     Viewport: require './viewport'
 
