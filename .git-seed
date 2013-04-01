@@ -12,7 +12,7 @@
     "path": "./node_modules/nez",
     "origin": "git@github.com:nomilous/nez.git",
     "branch": "refs/heads/develop",
-    "ref": "1ebc393a88cc7d99eb31acb3663fa83f5ce2b296",
+    "ref": "18f84643200b8666104305c0f01ef0b185f72f32",
     "manager": "npm"
   },
   {
@@ -20,7 +20,7 @@
     "path": "./node_modules/nez/node_modules/eo",
     "origin": "git@github.com:nomilous/eo.git",
     "branch": "refs/heads/master",
-    "ref": "682d9b7ec43bc855592ce7c1a021399f2f0b8462",
+    "ref": "806849fa1492981331a5460ab445c1f83560b254",
     "manager": "npm"
   },
   {
@@ -36,7 +36,7 @@
     "path": "./node_modules/nez/node_modules/nezcore",
     "origin": "git@github.com:nomilous/nezcore.git",
     "branch": "refs/heads/develop",
-    "ref": "e0cccf1b884f0cae880572e91bf8e0392f83e0fb",
+    "ref": "08a98125cc558a14ae494147058dddc20d09ec8e",
     "manager": "npm"
   }
 ]
