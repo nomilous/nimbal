@@ -2,12 +2,15 @@
 
 require('nez').objective 'Nimbal',
 
-    nimbal: 'http://localhost:10101/'
-    secret: 'SEEKRIT'
-    
-    class: 'Home'
+    as: 'Develop'
+
+    # nimbal: 'http://localhost:10101/'
+    # secret: 'SEEKRIT'
+    # class: 'Home'
 
     category: 'Web Application'
+
+    tags: 'None'
 
     description: """
 
