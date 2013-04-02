@@ -2,12 +2,6 @@
 
 require('nez').objective 'Nimbal',
 
-    as: 'Develop'
-
-    # nimbal: 'http://localhost:10101/'
-    # secret: 'SEEKRIT'
-    # class: 'Home'
-
     category: 'Web Application'
 
     tags: 'None'
