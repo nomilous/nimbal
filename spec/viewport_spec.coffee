@@ -1,7 +1,7 @@
-require('nez').realize 'Viewport', (Viewport, test, context) -> 
+require('nez').realize 'Viewport', (context, test, Viewport) -> 
 
-    context 'in CONTEXT', (it) ->
+        context 'in CONTEXT', (it) ->
 
-        it 'does an EXPECTATION', (done) ->
+            it 'does an EXPECTATION', (done) ->
 
-            test done
+                test done

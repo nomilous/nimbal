@@ -1,4 +1,4 @@
-require('nez').realize 'QuickHack', (QuickHack, test, context) -> 
+require('nez').realize 'QuickHack', (context, test, QuickHack) -> 
 
     context 'in CONTEXT', (it) ->
 

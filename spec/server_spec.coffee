@@ -1,4 +1,4 @@
-require('nez').realize 'Server', (Server, test, it) -> 
+require('nez').realize 'Server', (it, tests, Server) -> 
 
     it 'starts express and plex', (done, plex, http) ->
 
@@ -12,6 +12,6 @@ require('nez').realize 'Server', (Server, test, it) ->
         plex.start = (opts) -> 
 
             opts.listen.adaptor.should.equal 'socket.io'
-            test done
+            tests done
 
         Server.start()
