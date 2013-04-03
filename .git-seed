@@ -12,7 +12,7 @@
     "path": "./node_modules/nez",
     "origin": "git@github.com:nomilous/nez.git",
     "branch": "refs/heads/develop",
-    "ref": "98ca38bb0012e447a2b7434bd18d1fb97ee79536",
+    "ref": "627709a3a2d553e12862e2405509b01fe5a57b6b",
     "manager": "npm"
   },
   {
@@ -20,15 +20,15 @@
     "path": "./node_modules/nez/node_modules/eo",
     "origin": "git@github.com:nomilous/eo.git",
     "branch": "refs/heads/master",
-    "ref": "27db0a2f2ddc54dfa07ba04e05507f932451a1d5",
+    "ref": "0b54804995c3d5e19572fee1b7eedebb85cdf84a",
     "manager": "npm"
   },
   {
     "root": false,
     "path": "./node_modules/nez/node_modules/ipso",
     "origin": "git@github.com:nomilous/ipso.git",
-    "branch": "refs/heads/master",
-    "ref": "2725953af3761cb4aa9170493262f3128dacde3c",
+    "branch": "refs/heads/develop",
+    "ref": "1929993d859ee8277d105deece083793f9984321",
     "manager": "npm"
   },
   {
@@ -37,6 +37,14 @@
     "origin": "git@github.com:nomilous/nezcore.git",
     "branch": "refs/heads/develop",
     "ref": "08a98125cc558a14ae494147058dddc20d09ec8e",
+    "manager": "npm"
+  },
+  {
+    "root": false,
+    "path": "./node_modules/nez/node_modules/plex",
+    "origin": "git@github.com:nomilous/plex.git",
+    "branch": "refs/heads/develop",
+    "ref": "63494c18adc90b5a736ab98afddd7e8e7da0ad1f",
     "manager": "npm"
   }
 ]
