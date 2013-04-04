@@ -12,7 +12,7 @@
     "path": "./node_modules/nez",
     "origin": "git@github.com:nomilous/nez.git",
     "branch": "refs/heads/develop",
-    "ref": "627709a3a2d553e12862e2405509b01fe5a57b6b",
+    "ref": "94ec04a89640409f4d599b127f10d75a6f839380",
     "manager": "npm"
   },
   {
@@ -28,7 +28,7 @@
     "path": "./node_modules/nez/node_modules/ipso",
     "origin": "git@github.com:nomilous/ipso.git",
     "branch": "refs/heads/develop",
-    "ref": "1929993d859ee8277d105deece083793f9984321",
+    "ref": "ac2803e8cfecd67a04e31a369c7bcd5ad35e5561",
     "manager": "npm"
   },
   {
