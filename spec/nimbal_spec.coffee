@@ -1,6 +1,6 @@
 require('nez').realize 'Nimbal', (context, test, Nimbal) ->
 
-    context 'HELLO', (done) -> 
-
+    context 'HELLO', (done, should) -> 
+        
         test done
 

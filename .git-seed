@@ -12,7 +12,7 @@
     "path": "./node_modules/nez",
     "origin": "git@github.com:nomilous/nez.git",
     "branch": "refs/heads/develop",
-    "ref": "94ec04a89640409f4d599b127f10d75a6f839380",
+    "ref": "c4f04e53aba2845c1d774f574918229b22e2fec0",
     "manager": "npm"
   },
   {
@@ -44,7 +44,7 @@
     "path": "./node_modules/nez/node_modules/plex",
     "origin": "git@github.com:nomilous/plex.git",
     "branch": "refs/heads/develop",
-    "ref": "63494c18adc90b5a736ab98afddd7e8e7da0ad1f",
+    "ref": "21b8da71ed615cebfb6db20221ba1678fd8952b0",
     "manager": "npm"
   }
 ]
