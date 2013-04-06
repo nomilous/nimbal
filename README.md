@@ -63,7 +63,7 @@ git seed pull  # from time to time
 # @ another terminal
 # 
 
-./objective
+./objective [-h]
 
 
 #
