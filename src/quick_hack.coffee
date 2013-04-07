@@ -1,6 +1,6 @@
 fs = require 'fs'
 
-module.exports = (req, res, next) -> 
+module.exports = (req, res) ->
 
     #
     # quick hac gets http://localhost:10101/ 

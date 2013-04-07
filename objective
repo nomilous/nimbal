@@ -7,8 +7,11 @@ require('nez').objective 'Nimbal',
     tags: 'None'
 
     #
-    # eo:Develop watches spec and src directories
+    # eo:Develop watches spec and src sub directories of path
     #
+    # defaults:
+    # 
+    #path: __dirname
     #spec: './spec'
     #src: './src'
     # 
