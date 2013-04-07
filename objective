@@ -23,5 +23,10 @@ require('nez').objective 'Nimbal',
 
 
     """, (requirement) -> 
+
+
+        requirement 'stack event emitter', (it) -> 
+
+            it 'works' 
         
         requirement.link 'requirement/uplink'
