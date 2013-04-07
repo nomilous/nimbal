@@ -11,8 +11,7 @@
   ],
   "dependencies": {
     "plex": "0.0.7",
-    "express": "~3.1.0",
-    "colors": "~0.6.0-1"
+    "express": "~3.1.0"
   },
   "devDependencies": {
     "nez": "0.0.8",

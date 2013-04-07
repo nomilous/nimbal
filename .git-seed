@@ -36,7 +36,7 @@
     "path": "./node_modules/nez/node_modules/nezcore",
     "origin": "git@github.com:nomilous/nezcore.git",
     "branch": "refs/heads/develop",
-    "ref": "dc81247194dc0f8fe43a54187ced9ba8d1550b0e",
+    "ref": "ba4deb026a6b836f8a830d9f104de56c3f31af23",
     "manager": "npm"
   },
   {
