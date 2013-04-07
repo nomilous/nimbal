@@ -6,6 +6,13 @@ require('nez').objective 'Nimbal',
 
     tags: 'None'
 
+    #
+    # eo:Develop watches spec and src directories
+    #
+    #spec: './spec'
+    #src: './src'
+    # 
+
     description: """
 
         An zero maintenance web application that persons/teams can install
