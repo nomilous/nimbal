@@ -20,7 +20,7 @@
     "path": "./node_modules/nez/node_modules/eo",
     "origin": "git@github.com:nomilous/eo.git",
     "branch": "refs/heads/master",
-    "ref": "f9e73ec152382bae97e04ef9507eb4cac3d5753c",
+    "ref": "a0cdaf62757b0dcf42bbb4930bb2ee94b646349a",
     "manager": "npm"
   },
   {
@@ -36,7 +36,7 @@
     "path": "./node_modules/nez/node_modules/nezcore",
     "origin": "git@github.com:nomilous/nezcore.git",
     "branch": "refs/heads/develop",
-    "ref": "ba4deb026a6b836f8a830d9f104de56c3f31af23",
+    "ref": "174b35ee9ffe06830a72662ac16de0dfea1b380b",
     "manager": "npm"
   },
   {
